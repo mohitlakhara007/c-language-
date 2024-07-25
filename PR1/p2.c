@@ -2,7 +2,11 @@
 
 void main()
 {
-	int  salary,HRA,DA,TA,T1;
+	int  salary,HRA,DA,TA,T1,a;
+	
+	printf("Enter the Base Salary : ");
+	scanf("%d",&salary);
+	
 	printf("Enter the HRA = ");
 	scanf("%d",&HRA);
 	
@@ -12,16 +16,17 @@ void main()
 	printf("Enter the TA = ");
 	scanf("%d",&TA);
 	
-	printf("Enter the Base Salary : ");
-	scanf("%f",&salary);
+	
+
+
+	HRA = salary * HRA / 100;
+	DA = salary * DA/ 100;
+	TA = salary * TA/ 100;
 	
 	T1=HRA+DA+TA;
 	
+	a=T1+salary;
 	
-	
-	HRA = T1 * HRA / 100;
-	DA = salary * DA / 100;
-	TA = salary *  / 100;
-	
+	printf("gross = %d",a);
 
 }
