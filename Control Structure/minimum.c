@@ -11,7 +11,7 @@ void main()
 	printf("enter the B: ");
 	scanf("%d",&b);
 	
-	(a<b)?printf("a is minimum") : printf("b is minimum");
+	(a<b)?printf("A is minimum") : printf("B is minimum");
 	
 }
 
