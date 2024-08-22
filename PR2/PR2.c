@@ -7,7 +7,7 @@
 	int mark;
 	char grade;
 	
-	printf("Enter your marks:");
+	printf("Enter your mark:");
 	scanf("%d",&mark);
 	
 	
@@ -40,9 +40,9 @@ printf("Your Grade is A\n",grade='A')
 
 	
 	//Extend the program to provide additional comments based on the grade using a switch-case
-//statement. For example, if the grade is ‘A’, then print ‘Excellent work!’. If the grade is ‘B’, then
-//print ‘Well done’. If the grade is ‘C’, then print ‘Good job’. If the grade is ‘D’, then print ‘You
-//passed, but you could do better’. And if the grade is ‘F’, then print ‘Sorry, you failed’.
+//statement. For example, if the grade is â€˜Aâ€™, then print â€˜Excellent work!â€™. If the grade is â€˜Bâ€™, then
+//print â€˜Well doneâ€™. If the grade is â€˜Câ€™, then print â€˜Good jobâ€™. If the grade is â€˜Dâ€™, then print â€˜You
+//passed, but you could do betterâ€™. And if the grade is â€˜Fâ€™, then print â€˜Sorry, you failedâ€™.
 	  switch (grade) 
 	  {
         case 'A':
@@ -66,8 +66,8 @@ printf("Your Grade is A\n",grade='A')
 }
 	
 //	Further, extend the program to check eligibility for the next level based on the grade using an
-//if-else statement. Print ‘Congratulations! You are eligible for the next level’ if the grade is from
-//‘A’ to ‘D’. Print ‘Please try again next time’ if the grade is ‘F’.
+//if-else statement. Print â€˜Congratulations! You are eligible for the next levelâ€™ if the grade is from
+//â€˜Aâ€™ to â€˜Dâ€™. Print â€˜Please try again next timeâ€™ if the grade is â€˜Fâ€™.
 
 		 if (grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D') {
         printf("Congratulations! You are eligible for the next level.\n");
