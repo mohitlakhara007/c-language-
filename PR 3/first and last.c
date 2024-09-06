@@ -3,22 +3,22 @@
 
 int main()
  {
-	int a,firstDigit, lastDigit, sum;
+	int a,b,c, sum;
 	
 	printf("Enter a number: ");
 	scanf("%d", &a);
 	
-	lastDigit = a % 10;
+	c=a%10;
 	
-	firstDigit = a;
-	while(firstDigit>=10)
+	 b = a;
+	while(b>=10)
 	
 		{
-		    firstDigit/=10;
+		    b/=10;
 	    }
 
-    sum =firstDigit+lastDigit;
+    sum =b+c;
 
-    printf("Sum of first or last digit = %d\n", sum);
+    printf("Sum of first or last digit : %d\n", sum);
 }
 
