@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 void main()
 {
@@ -10,7 +11,5 @@ void main()
 		printf("%d ",a[i]);
 		sum=a[i]+sum;
 	}
-	printf("%d ",sum);
-	
-	
+	printf("%d ",sum);	
 }
