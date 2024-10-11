@@ -11,7 +11,7 @@ void main()
 		printf("%d \n",a[i]);
 		sum=(a[i]+sum);
 	}
-	average=(sum)/15;
+	average=(sum)/10;
 	printf("average %d ",average);
 	
 	
