@@ -1,22 +1,24 @@
-// 1
-// 1 2
-// 1 2 3
-// 1 2 3 4
-// 1 2 3 4 5
-
 #include<stdio.h>
-#include<conio.h>
-
 void main()
 {
-	int i,j;
+	int i,n,a[n];
+	printf("enter your number :");
+	scanf("%d",&n);
 	
-	for(i=1;i<=5;i++)
+	for(i=0; i<n; i++)
 	{
-		for(j=1;j<=i;j++)
+		
+		printf("enter  number of a[%d]:",i);
+		scanf("%d",&a[i]);
+		
+	}
+	printf("your nagetive number: ");
+	
+	for(i=0; i<n; i++)
+	{
+		if(a[i]<0)
 		{
-			printf("%d ",j);
-		}
-		printf("\n");
+			printf("%d ",a[i]);
+		}	
 	}
 }
